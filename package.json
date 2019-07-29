@@ -1,6 +1,6 @@
 {
   "name": "conformance",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A module that helps you get insight into compliance with SPDX conformance.",
   "main": "index.js",
   "directories": {
