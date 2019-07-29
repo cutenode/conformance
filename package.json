@@ -11,7 +11,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["licenses", "license", "conformance", "conform", "spdx", "osi", "Open Source Initiative", "fsf", "Free Software Foundation", "validate"],
+  "keywords": [
+    "licenses",
+    "license",
+    "conformance",
+    "conform",
+    "spdx",
+    "osi",
+    "Open Source Initiative",
+    "fsf",
+    "Free Software Foundation",
+    "validate"
+  ],
   "author": "Tierney Cyren <hello@bnb.im>",
   "license": "MIT",
   "dependencies": {
@@ -25,5 +36,13 @@
     "ignore": [
       "/tests"
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cutenode/conformance.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cutenode/conformance/issues"
+  },
+  "homepage": "https://github.com/cutenode/conformance#readme"
 }
