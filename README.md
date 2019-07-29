@@ -15,7 +15,7 @@ conformance('ISC OR GPL-2.0-with-GCC-exception')
 
 ## What
 
-This module will spit out an object at you with a suite of information about a SPDX license expression you pass in. In general, it will look something like this:
+This module will spit out an object at you with a suite of information about an SPDX license expression you pass in. In general, it will look something like this:
 
 ```json
 {
@@ -53,8 +53,8 @@ Where:
 
 ## Why
 
-This is something I've wanted to see for a long time. I've personally seen how high of a barrier licensing can be for larger teams. By increasing insight into license strucutre across applications, we can hopefully lower the barrier for further adoption across industries ❤️
+This is something I've wanted to see for a long time. I've personally seen how high of a barrier licensing can be for larger teams. By increasing insight into license structure across applications, we can hopefully lower the barrier for further adoption across industries ❤️
 
 ## Limitations
 
-- License expression depth is currently limited to three licenses. For example, `MIT AND (CC0-1.0 OR ISC)` is the current maximum depth. This will return 3 licenses, as you'd expect. This isn't a hard limit, it's just the depth that's been written in the context of licenses on npm. To date, I've not seen a license expression that goes futher than this. If this ends up being written, it should just be a recursive function that continues to check regardless of depth.
+- License expression depth is currently limited to three licenses. For example, `MIT AND (CC0-1.0 OR ISC)` is the current maximum depth. This will return 3 licenses, as you'd expect. This isn't a hard limit, it's just the depth that's been written in the context of licenses on npm. To date, I've not seen a license expression that goes further than this. If this ends up being rewritten, it should just be a recursive function that continues to check regardless of depth.
