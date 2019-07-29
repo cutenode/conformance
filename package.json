@@ -1,0 +1,29 @@
+{
+  "name": "conformance",
+  "version": "0.0.1",
+  "description": "A module that helps you get insight into compliance with SPDX conformance.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["licenses", "license", "conformance", "conform", "spdx", "osi", "Open Source Initiative", "fsf", "Free Software Foundation", "validate"],
+  "author": "Tierney Cyren <hello@bnb.im>",
+  "license": "MIT",
+  "dependencies": {
+    "spdx-expression-parse": "^3.0.0"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "standard": "^13.1.0"
+  },
+  "standard": {
+    "ignore": [
+      "/tests"
+    ]
+  }
+}
