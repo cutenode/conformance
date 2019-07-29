@@ -37,6 +37,11 @@
       "/tests"
     ]
   },
+  "files": [
+    "/exports",
+    "/lib",
+    "/licenses"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cutenode/conformance.git"
