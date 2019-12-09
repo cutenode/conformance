@@ -1,5 +1,7 @@
 # Conformance
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/cutenode/conformance.svg)](https://greenkeeper.io/)
+
 A module that helps you get insight into licenses included in the SPDX license list.
 
 ## Usage
