@@ -29,8 +29,8 @@
     "spdx-expression-parse": "^3.0.0"
   },
   "devDependencies": {
-    "jest": "^24.8.0",
-    "standard": "^13.1.0"
+    "jest": "^27.0.6",
+    "standard": "^16.0.3"
   },
   "standard": {
     "ignore": [
