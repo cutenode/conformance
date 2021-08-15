@@ -1,16 +1,27 @@
+export interface complianceOptions {
+  throwOnError: boolean;
+}
+
+/**
+ * returnableLicense
+ */
 export interface license {
   uniqueLicenseIds: string[];
-  spdxLicenseLinks?: string[];
+  spdxLicenseLinks: string[];
   spdx?: {
-      osi: boolean;
-      fsf: boolean;
-      fsfAndOsi: boolean;
-      includesDeprecated: boolean;
+    osi: boolean;
+    fsf: boolean;
+    fsfAndOsi: boolean;
+    includesDeprecated: boolean;
   };
 }
 
-export interface result {
-  licenses: license[];
-  hasMultipleLicenses: boolean;
-  uniqueLicenseIds: string[];
+/**
+ * returnableLicenseEror
+ */
+export interface licenseError {
+  license: string;
+  error: string;
 }
+
+export declare function compliance(licenseID: string, options: complianceOptions): Promise<license | licenseError>
